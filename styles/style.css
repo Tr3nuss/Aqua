@@ -27,6 +27,7 @@ body {
   list-style: none;
   color: #fff;
   font-size: 14px;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
@@ -35,4 +36,113 @@ body {
   border: none;
   outline: none;
   padding: 9px 15px;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.main {
+  max-width: 1298px;
+  margin: 121px auto;
+}
+
+.main-font {
+  background: url(../img/main-font.jpeg);
+  height: 600px;
+  border-radius: 10px;
+}
+
+.main-font-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 136px;
+}
+
+.title-sheet {
+  background: #fff;
+  width: 28px;
+  height: 14px;
+  border-radius: 50px 0px;
+}
+
+.title-text {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.suptitle-text {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 64px;
+  color: #fff;
+}
+
+.session-title {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  align-items: center;
+  padding-top: 99px;
+}
+
+.session-title-text {
+  font-size: 42px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-list {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.first-card-list-item {
+  align-self: flex-start;
+  width: 416px;
+  height: 540px;
+  background: url(../img/img1.png);
+}
+
+.card-list-item {
+  width: 416px;
+  height: 258px;
+  background: url(../img/img2.png);
+}
+
+.reviews-section {
+  max-width: 1736px;
+  margin: 0 auto;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+
+.reviews-blocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.reviews-block {
+  background: #017aaa;
+  width: 500px;
+  height: 276px;
+  border-radius: 10px;
+}
+
+.reviews-active-block {
+  background: #018abe;
+  width: 636px;
+  height: 350px;
+  border-radius: 10px;
 }
