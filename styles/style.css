@@ -89,6 +89,13 @@ body {
   padding-top: 99px;
 }
 
+.session-sheet {
+  background: #018abe;
+  width: 28px;
+  height: 14px;
+  border-radius: 50px 0px;
+}
+
 .session-title-text {
   font-size: 42px;
   color: #fff;
@@ -97,13 +104,22 @@ body {
 
 .card-list {
   margin-top: 100px;
+  gap: 25px;
   display: flex;
-  flex-wrap: wrap;
+}
+
+.card-right-items {
+  display: flex;
+  gap: 25px;
+}
+
+.card-right-items div {
+  display: flex;
+  flex-direction: column;
   gap: 25px;
 }
 
 .first-card-list-item {
-  align-self: flex-start;
   width: 416px;
   height: 540px;
   background: url(../img/img1.png);
@@ -113,6 +129,9 @@ body {
   width: 416px;
   height: 258px;
   background: url(../img/img2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .reviews-section {
@@ -123,10 +142,24 @@ body {
 .reviews {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 45px;
 }
 
+.reviews-word {
+  color: #fff;
+  font-size: 42px;
+}
+
+.reviews-sheet {
+  width: 28px;
+  height: 14px;
+  background: #018abe;
+  border-radius: 50px 0px;
+}
+
 .reviews-blocks {
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -134,7 +167,7 @@ body {
 }
 
 .reviews-block {
-  background: #017aaa;
+  background: #1e3e59;
   width: 500px;
   height: 276px;
   border-radius: 10px;
@@ -145,4 +178,90 @@ body {
   width: 636px;
   height: 350px;
   border-radius: 10px;
+}
+
+.reviews-blocks-squares {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 60px;
+}
+
+#first-reviews-blocks-squares {
+  background: #fff;
+}
+
+.reviews-blocks-squares div {
+  width: 16px;
+  height: 16px;
+  background: grey;
+  border-radius: 5px;
+}
+
+.session-description {
+  max-width: 1076px;
+  margin: 0 auto;
+}
+
+.session-description-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  gap: 45px;
+}
+
+.session-descirption-word {
+  font-size: 42px;
+  color: #fff;
+}
+
+.session-description-sheet {
+  width: 28px;
+  height: 14px;
+  background: #018abe;
+  border-radius: 50px 0px;
+}
+
+.session-description-blocks {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.session-description-block-massage {
+  width: 466px;
+  height: 234px;
+}
+
+.session-description-block-massage-title {
+  font-size: 24px;
+  color: #fff;
+}
+
+.session-description-block-massage-text {
+  font-size: 16px;
+  color: grey;
+}
+
+.session-description-block-image {
+  width: 526px;
+  height: 365px;
+  background: url(../img/img3.png);
+}
+
+.session-descirption-block-hydroterapy {
+  width: 466px;
+  height: 366px;
+}
+
+.session-price {
+  max-width: 1076px;
+  margin: 150px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
