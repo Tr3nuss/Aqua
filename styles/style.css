@@ -25,6 +25,10 @@ body {
   gap: 50px;
 }
 
+.nav-items a:hover {
+  color: #0277bd;
+}
+
 .nav-items li,
 .nav-items a {
   text-decoration: none;
@@ -32,6 +36,7 @@ body {
   color: #fff;
   font-size: 14px;
   font-weight: 400;
+  transition: color 0.3s linear;
 }
 
 .header-nav-button {

@@ -1,0 +1,132 @@
+body {
+  background-color: #162831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.news-container {
+  max-width: 1296px;
+  margin: 30px auto;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-items a:hover {
+  color: #0277bd;
+}
+
+.nav-items li,
+.nav-items a {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  transition: color 0.3s linear;
+}
+
+.header-nav-button {
+  background: #018abe;
+  border: none;
+  outline: none;
+  padding: 9px 15px;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 400;
+  height: 36px;
+  border-radius: 3px;
+}
+
+hr {
+  margin-top: 30px;
+  opacity: 0.5;
+}
+
+.news-main {
+  margin-top: 60px;
+}
+
+.news-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+
+.news-title-sheet {
+  background: #018abe;
+  width: 28px;
+  height: 14px;
+  border-radius: 50px 0px;
+}
+
+.news-title-text {
+  font-size: 42px;
+  color: #fff;
+}
+
+.news-cards {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.news-cards-item {
+  width: 416px;
+  height: 258px;
+  background: url(../img/img2.png);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 30px 35px;
+}
+
+.news-cards-item-date {
+  color: #fff;
+  font-size: 14px;
+  font-size: 700;
+  background-color: #018abe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 96px;
+  height: 30px;
+}
+
+.news-cards-item-text {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+footer {
+  max-width: 1296px;
+  margin: 90px auto 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
