@@ -1,0 +1,158 @@
+body {
+  background-color: #162831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.news-container {
+  max-width: 1298px;
+  margin: 30px auto;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-items a:hover {
+  color: #0277bd;
+}
+
+.nav-items li,
+.nav-items a {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  transition: color 0.3s linear;
+}
+
+.header-nav-button {
+  background: #018abe;
+  border: none;
+  outline: none;
+  padding: 9px 15px;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 400;
+  height: 36px;
+  border-radius: 3px;
+}
+
+hr {
+  margin-top: 30px;
+  opacity: 0.5;
+}
+
+.blog-main {
+  margin-top: 60px;
+}
+
+.blog-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+
+.blog-title-text {
+  font-size: 42px;
+  color: #fff;
+}
+
+.blog-title-sheet {
+  width: 28px;
+  height: 14px;
+  background: #018abe;
+  border-radius: 50px 0px;
+}
+
+.newsession-cards {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+}
+
+.newsession-cards-item-description {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.newsession-cards-item {
+  padding: 50px 60px;
+  width: 100%;
+  height: 530px;
+  border: 2px solid #018abe;
+  border-radius: 10px;
+  display: flex;
+  gap: 50px;
+}
+
+.newsession-cards-item-date {
+  width: 96px;
+  height: 30px;
+  border-radius: 5px;
+  background: #018abe;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsession-cards-item-title {
+  color: #fff;
+  font-weight: 300;
+}
+
+.newsession-cards-item-text {
+  font-size: 16px;
+  font-weight: 300;
+  color: #bdbdbd;
+}
+
+.newsession-cards-item-read-link {
+  background: #018abe;
+  color: #fff;
+  width: 134px;
+  height: 39px;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+#second-line {
+  margin-top: 120px;
+}
+
+footer {
+  max-width: 1296px;
+  margin: 90px auto 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
