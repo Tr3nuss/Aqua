@@ -9,7 +9,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.blog-container {
+.newsession-container {
   max-width: 1298px;
   margin: 30px auto;
 }
@@ -56,91 +56,67 @@ hr {
   opacity: 0.5;
 }
 
-.blog-main {
+.newsession-main {
   margin-top: 60px;
 }
 
-.blog-title {
+.newsession-title {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 45px;
 }
 
-.blog-title-text {
-  font-size: 42px;
-  color: #fff;
-}
-
-.blog-title-sheet {
+.newsession-title-sheet {
   width: 28px;
   height: 14px;
   background: #018abe;
   border-radius: 50px 0px;
 }
 
-.newsession-cards {
-  margin-top: 60px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 45px;
-}
-
-.newsession-cards-item-description {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.newsession-cards-item {
-  padding: 50px 60px;
-  width: 100%;
-  height: 530px;
-  border: 2px solid #018abe;
-  border-radius: 10px;
-  display: flex;
-  gap: 50px;
-}
-
-.newsession-cards-item-date {
-  width: 96px;
-  height: 30px;
-  border-radius: 5px;
-  background: #018abe;
+.newsession-title-text {
+  font-size: 42px;
   color: #fff;
-  font-size: 14px;
-  font-weight: 700;
+}
+
+.newsession-main-description {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 70px;
 }
 
-.newsession-cards-item-title {
+.newsession-description-date {
   color: #fff;
-  font-weight: 300;
+  background: #018abe;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 6px 12px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 96px;
 }
 
-.newsession-cards-item-text {
+.newsession-description-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 45px;
+}
+
+.newsession-description-text {
   font-size: 16px;
   font-weight: 300;
   color: #bdbdbd;
+  padding-top: 30px;
 }
 
-.newsession-cards-item-read-link {
-  background: #018abe;
-  color: #fff;
-  width: 134px;
-  height: 39px;
-  font-size: 14px;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5px;
-}
-
-#second-line {
-  margin-top: 120px;
+.newsession-main-description img {
+  width: 636px;
+  height: 394px;
 }
 
 footer {
